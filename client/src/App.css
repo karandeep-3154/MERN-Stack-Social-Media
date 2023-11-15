@@ -36,7 +36,7 @@ border: none;
 border-radius: 0.5rem;
 background: var(--buttonBg);
 transition:all 100ms ease-out;
-padding: 0.35rem 0.6rem;
+padding: 0.55rem 1.07rem;
 }
 .button:hover{
 cursor: pointer;

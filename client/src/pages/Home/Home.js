@@ -1,11 +1,12 @@
 import React from 'react'
 import  './Home.css'
 import ProfileSide from '../../Components/ProfileSide/ProfileSide'
+import PostSide from '../../Components/PostSide/PostSide'
 const Home = () => {
   return (
     <div className='Home'>
-        <div className="profileSide"><ProfileSide/></div>
-        <div className="postSide">Posts</div>
+        <ProfileSide/>
+        <PostSide/>
         <div className="rightSide">Right</div>
     </div>
   )
