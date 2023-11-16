@@ -29,4 +29,6 @@
       font-weight: bold;
   }.button{
       margin-right: 22px;
+  }.example::-webkit-scrollbar {
+    display: none;
   }
